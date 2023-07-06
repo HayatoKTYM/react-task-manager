@@ -1,7 +1,7 @@
 {
   "name": "react-task-manager",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://HayatoKTYM.github.io/react-task-manager/",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.19",
