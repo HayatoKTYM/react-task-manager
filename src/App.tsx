@@ -9,7 +9,7 @@ function App() {
 		<ChakraProvider>
 			<CSSReset />
 			<RecoilRoot>
-				<Box maxW={{ base: '100%', md: '80%', lg: '60%' }} m="auto" p={4}>
+				<Box maxW={{ base: '100%', md: '80%' }} m="auto" p={2}>
 					<TaskForm />
 					<TaskList />
 				</Box>
