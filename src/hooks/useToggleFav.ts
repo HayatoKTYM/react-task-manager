@@ -6,9 +6,7 @@ const useToggleFav = () => {
 
 	const toggleTask = (id: string) => {
 		setTasks(
-			tasks.map((task) =>
-				task.id === id ? { ...task, fav: !task.fav } : task
-			)
+			tasks.map((task) => (task.id === id ? { ...task, fav: !task.fav } : task))
 		);
 	};
 	return toggleTask;

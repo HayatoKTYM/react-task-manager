@@ -4,7 +4,7 @@ export type Task = {
 	id: string;
 	text: string;
 	status: 'todo' | 'doing' | 'done'; // ステータスを追加
-  fav: boolean
+	fav: boolean;
 };
 
 // タスクリスト用のatomを作成
@@ -29,6 +29,6 @@ export const newTaskState = atom<string>({
 });
 
 export const editingIndexState = atom<string | null>({
-  key: 'editingIndexState',
-  default: null,
+	key: 'editingIndexState',
+	default: null,
 });
